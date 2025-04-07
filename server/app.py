@@ -79,16 +79,7 @@ class Guests(Resource):
 # Post appearances
 class PostAppearances(Resource):
     def post(self):
-        # new_appearance = Appearance(
-        #     rating=request.json.get('rating'),
-        #     episode_id=request.json.get('episode_id'),
-        #     guest_id=request.json.get('guest_id')
-        # )
-        
-        # db.session.add(new_appearance)
-        # db.session.commit()
-        
-        # response = make_response(new_appearance.to_dict(), 201)
+       
         
         data = request.get_json()
 
